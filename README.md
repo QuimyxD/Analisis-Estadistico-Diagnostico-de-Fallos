@@ -16,7 +16,13 @@ analisis-estadistico-diagnostico-fallas/
 ├── 1_c0000c30c100.csv
 ├── 2_c0759c30c100.csv
 ├── 3_c1513c30c100.csv
-├── graficos.py
+├── estadistica_anatilitca_lib
+    |_ __pycache__
+    |_ Forma.py
+    |_ Dispersion.py
+    |_ Tendencias.py
+    |_ Frecuencias.py
+    |_ __init__. py
 ├── main.py
 └── README.md
 ```
@@ -32,15 +38,20 @@ analisis-estadistico-diagnostico-fallas/
 ├── 1_c0000c30c100.csv
 ├── 2_c0759c30c100.csv
 ├── 3_c1513c30c100.csv
-├── graficos.py
 ├── main.py
 ├── README.md
-├── resultados_analisis.txt
-└── output_graficos/
-    ├── distribucion_fallas.png
-    ├── histograma_tendencia_central.png
-    ├── boxplot_multimetrico.png
-    └── dispersion_fallas.png
+├── estadistica_anatilitca_lib
+    |_ __pycache__
+    |_ Forma.py
+    |_ Dispersion.py
+    |_ Tendencias.py
+    |_ Frecuencias.py
+    |_ __init__. py
+└── Resultados/
+    ├──Subcarpeta_Resultados/
+        ├── histograma_superpuesto_CH2.png
+        ├── boxplot_comparativo_CH2.png
+        └── resumen_estadistico.txt
 ```
 
 
