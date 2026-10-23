@@ -98,4 +98,4 @@ Las imágenes generadas se guardarán automáticamente en la carpeta de salida y
 
 - **Carrera:** Licenciatura en Ingeniería de Datos e Inteligencia Artificial (LIDIA).
 - **Institución:** Universidad de Guanajuato – División de Ingenierías (Campus Irapuato - Salamanca).
-- **Asignatura:** Estadística Inferencial.
+- **Asignatura:** Fundamentos del Análisis de Datos.
