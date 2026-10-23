@@ -10,6 +10,7 @@ A continuación se muestra la evolución de la estructura del repositorio antes 
 Antes de ejecutar los scripts de análisis, el proyecto cuenta únicamente con el código fuente y los archivos CSV de datos en la raíz:
 
 
+```text
 analisis-estadistico-diagnostico-fallas/
 ├── 0_c2264c30c100.csv
 ├── 1_c0000c30c100.csv
@@ -18,12 +19,14 @@ analisis-estadistico-diagnostico-fallas/
 ├── graficos.py
 ├── main.py
 └── README.md
+```
 
 ---
 
 ## 2. Estado Final (Después de generar gráficos y TXT)
 Tras la ejecución del pipeline de análisis, el programa crea dinámicamente carpetas de salida (output/ o graficos/), exportando las visualizaciones en formato imagen y el resumen estadístico descriptivo en un archivo de texto (.txt):
 
+```text
 analisis-estadistico-diagnostico-fallas/
 ├── 0_c2264c30c100.csv
 ├── 1_c0000c30c100.csv
@@ -32,13 +35,13 @@ analisis-estadistico-diagnostico-fallas/
 ├── graficos.py
 ├── main.py
 ├── README.md
-│
-├── resultados_analisis.txt          <-- Reporte descriptivo con métricas calculadas
-└── output_graficos/                 <-- Directorio generado con las visualizaciones
+├── resultados_analisis.txt
+└── output_graficos/
     ├── distribucion_fallas.png
     ├── histograma_tendencia_central.png
     ├── boxplot_multimetrico.png
     └── dispersion_fallas.png
+```
 
 
 ---
