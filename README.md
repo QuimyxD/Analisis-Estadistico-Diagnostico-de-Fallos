@@ -51,6 +51,7 @@ analisis-estadistico-diagnostico-fallas/
     ├──Subcarpeta_Resultados/
         ├── histograma_superpuesto_CH2.png
         ├── boxplot_comparativo_CH2.png
+        ├── comparacion_media_aritmetica.png
         └── resumen_estadistico.txt
 ```
 
