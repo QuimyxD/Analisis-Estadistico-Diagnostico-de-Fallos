@@ -16,7 +16,7 @@ analisis-estadistico-diagnostico-fallas/
 ├── 1_c0000c30c100.csv
 ├── 2_c0759c30c100.csv
 ├── 3_c1513c30c100.csv
-├── estadistica_anatilitca_lib
+├── estadistica_anatilitca_lib/
     |_ __pycache__
     |_ Forma.py
     |_ Dispersion.py
@@ -40,7 +40,7 @@ analisis-estadistico-diagnostico-fallas/
 ├── 3_c1513c30c100.csv
 ├── main.py
 ├── README.md
-├── estadistica_anatilitca_lib
+├── estadistica_anatilitca_lib/
     |_ __pycache__
     |_ Forma.py
     |_ Dispersion.py
